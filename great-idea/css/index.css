@@ -188,3 +188,58 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/* Service Page Intro */
+.service-intro {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid red;
+}
+
+.service-intro h4 {
+  font-size: 22px;
+}
+
+.service-intro .services-header-img {
+  width: auto;
+  padding-bottom: 20px;
+
+}
+
+
+/* Service Page Main */
+.service-main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top 30px;
+  border-top: 1px solid black;
+} 
+
+.service-main-content .content-box{
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  border: 1px solid black;
+  width: 380px;
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+}
+.service-main-content .content-box p {
+  margin: 10px;
+}
+.service-main-content .content-box button {
+  justify-content: left;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}  
+
+
+/* Service Page Facts */
