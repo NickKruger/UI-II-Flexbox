@@ -243,3 +243,24 @@ footer {
 
 
 /* Service Page Facts */
+
+.services-facts{
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid red;
+  //margin: 30px;
+  //padding: 10px;
+  border-top: 1px solid black;
+}
+.services-facts-text {
+  padding: 10px;
+}
+
+.services-facts-text p {
+  width: 380px;
+}
+
+.services-facts .services-facts-img {
+  width: 380px;
+  height: auto;
+}
