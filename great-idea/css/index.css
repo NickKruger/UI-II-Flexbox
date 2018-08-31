@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
-  border: 1px solid red;
+  
 }
 
 /* header */
@@ -80,14 +80,13 @@ header nav {
   align-items: center;
   width: auto;
   margin-top: 20px;
-  border: 1px solid red;
+  
 }
 
 header nav a {
   font-size: 14px;
   color: gray;
   text-decoration: none;
-  border: 1px solid red;
 }
 
 header nav a:hover {
@@ -96,7 +95,7 @@ header nav a:hover {
 
 header .logo {
   margin-left: 100px;
-  border: 1px solid red;
+  
 }
 
 /* cta */
@@ -195,7 +194,7 @@ footer {
   flex-direction: column;
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 1px solid red;
+  
 }
 
 .service-intro h4 {
@@ -214,7 +213,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-top 30px;
+  padding-top: 30px;
   border-top: 1px solid black;
 } 
 
@@ -246,18 +245,26 @@ footer {
 
 .services-facts{
   display: flex;
-  justify-content: space-evenly;
-  border: 1px solid red;
-  //margin: 30px;
-  //padding: 10px;
+  justify-content: space-around;
+  
   border-top: 1px solid black;
+  padding: 30px;
 }
 .services-facts-text {
+  
+  width: 380px;
   padding: 10px;
 }
 
+.services-facts-text li {
+  list-style-type: disc;
+  margin: 10px;
+}
+
 .services-facts-text p {
-  width: 380px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
 }
 
 .services-facts .services-facts-img {
